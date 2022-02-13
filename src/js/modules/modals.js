@@ -64,7 +64,6 @@ const modals = () => {
 
       function showModalByScroll() {
         if (isClicked === false) {
-          console.log(111);
           if (window.pageYOffset + document.documentElement.clientHeight >= document.documentElement.scrollHeight - 1) {
             openModal();
             removeEventListener('scroll', showModalByScroll)
